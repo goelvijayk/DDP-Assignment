@@ -7,7 +7,7 @@ runtime: shiny
 ---
 
 ## Overview
-Do you have difficulty finding a great car taht you would love to have? 
+Do you have difficulty finding a great car that you would love to have? 
 
 Well, we have built an application for you, for just this purpose. It will help you by providing details of cars, that match your criteria.
 
@@ -48,4 +48,9 @@ Criteria available to filter from, are:
 - minimum highway MPG and 
 - year of model release
 
+## Here is the embedded app.
 
+``` {r echo=FALSE}
+shinyAppDir(
+  "/Users/vgoel/Documents/repositories/developing data products/assignment submission/DDP-Assignment/")
+```
